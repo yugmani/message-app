@@ -1,0 +1,27 @@
+{
+  "name": "message-app",
+  "version": "1.0.0",
+  "description": "send message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yugmani/message-app.git"
+  },
+  "author": "Yoog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yugmani/message-app/issues"
+  },
+  "homepage": "https://github.com/yugmani/message-app#readme",
+  "dependencies": {
+    "@vonage/server-sdk": "^2.10.7",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nexmo": "^2.9.1",
+    "socket.io": "^4.0.1"
+  }
+}
